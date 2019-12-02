@@ -24,7 +24,7 @@ namespace UserMaintenance
             
             button1.Text = Resource1.Add;
             button2.Text = Resource1.Add1;
-            button3.Text = Resource1.Remove;
+            button3.Text = Resource1.Add2;
 
             listBox1.DataSource = users;
             listBox1.ValueMember = "ID";

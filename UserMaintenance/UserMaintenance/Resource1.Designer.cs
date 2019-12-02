@@ -79,20 +79,20 @@ namespace UserMaintenance {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Törlés.
+        /// </summary>
+        internal static string Add2 {
+            get {
+                return ResourceManager.GetString("Add2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Teljes név.
         /// </summary>
         internal static string FullName {
             get {
                 return ResourceManager.GetString("FullName", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Törlés.
-        /// </summary>
-        internal static string Remove {
-            get {
-                return ResourceManager.GetString("Remove", resourceCulture);
             }
         }
     }
